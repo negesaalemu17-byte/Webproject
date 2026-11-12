@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Negesa Alemu's personal portfolio and web development journey.">
+    <title>Negesa Alemu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Negesa Alemu home">
+            <img src="../assets/developer.png" alt="Photo of Negesa Alemu" width="64" height="64">
+            <span>Negesa Alemu</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-navigation">
+        </button>
+
+        <nav id="main-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <p class="eyebrow">Information Systems Student</p>
+            <center>
+                <h1>Welcome to my portfolio</h1>
+                <h2>Hello, I'm Negesa Alemu.</h2>
+            </center>
+            
+            <p class="hero-intro">
+                I am an Information Systems student at Madda Walabu University
+                and an aspiring full-stack web developer. I am passionate about
+                technology, programming, and web development.
+            </p>
+            <p>
+                I am currently learning HTML, CSS, and JavaScript as I build my
+                web development skills.
+            </p>
+            <a class="button" href="#about">Learn more about me</a>
+        </section>
+
+        <section class="section" id="about">
+            <p class="eyebrow">A little about me</p>
+            <h2>About Me</h2>
+            <p>
+                My name is Negesa Alemu. I was born in 1996 in Arsi Gololcha
+                Woreda, Ethiopia. My parents are Alemu Dame and Shage Tasfaye.
+                I am working toward a future in web development while studying
+                Information Systems at Madda Walabu University.
+            </p>
+        </section>
+
+        <section class="section" id="skills">
+            <p class="eyebrow">What I'm learning</p>
+            <h2>My Skills</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Personal Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Problem-solving</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <p class="eyebrow">Things I've worked on</p>
+            <h2>My Projects</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Personal Information Website</h3>
+                    <p>A personal website created with HTML and CSS.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Student Registration Form</h3>
+                    <p>A simple student registration form created with HTML and CSS.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Contact Me</h2>
+            <p>You can email me or send a message using the form below.</p>
+
+            <ul class="contact-list">
+                <li>
+                    Email:mailto:Negesaalemu17@gmail.com
+                </li>
+                <li>Location: Madda Walabu University</li>
+            </ul>
+
+            <form action="mailto:Negesaalemu17@gmail.com" method="post" enctype="text/plain" id="form-structure">
+                <div class="form-field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone">Phone (optional)</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel">
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button class="button" type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year">2026</span> Negesa Alemu. All rights reserved.</p>
+        <p>Information Systems Student | Aspiring Web Developer</p>
+        <a href="#home">Back to top</a>
+    </footer>
+</body>
+</html>
